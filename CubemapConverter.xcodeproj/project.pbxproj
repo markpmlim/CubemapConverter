@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0DD7EA283E658D00A51D66 /* VerticalCross.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7E8283E658D00A51D66 /* VerticalCross.png */; };
+		EE0DD7EB283E658D00A51D66 /* VerticalCross.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7E8283E658D00A51D66 /* VerticalCross.png */; };
+		EE0DD7EC283E658D00A51D66 /* HorizontalCross.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7E9283E658D00A51D66 /* HorizontalCross.png */; };
+		EE0DD7ED283E658D00A51D66 /* HorizontalCross.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7E9283E658D00A51D66 /* HorizontalCross.png */; };
+		EE0DD7F0283E659800A51D66 /* HorizontalCross.hdr in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7EE283E659800A51D66 /* HorizontalCross.hdr */; };
+		EE0DD7F1283E659800A51D66 /* HorizontalCross.hdr in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7EE283E659800A51D66 /* HorizontalCross.hdr */; };
+		EE0DD7F2283E659800A51D66 /* VerticalCross.hdr in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7EF283E659800A51D66 /* VerticalCross.hdr */; };
+		EE0DD7F3283E659800A51D66 /* VerticalCross.hdr in Resources */ = {isa = PBXBuildFile; fileRef = EE0DD7EF283E659800A51D66 /* VerticalCross.hdr */; };
+		EE89B164283F26B600D01D12 /* CubemapFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE89B163283F26B600D01D12 /* CubemapFragmentShader.glsl */; };
+		EE89B165283F26B600D01D12 /* CubemapFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE89B163283F26B600D01D12 /* CubemapFragmentShader.glsl */; };
+		EE8F1B5228379864008D5E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B5028379864008D5E13 /* Main.storyboard */; };
+		EE8F1B5428379865008D5E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B5328379865008D5E13 /* Assets.xcassets */; };
+		EE8F1B5728379865008D5E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B5528379865008D5E13 /* LaunchScreen.storyboard */; };
+		EE8F1B62283799B1008D5E13 /* OpenGLRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F1B60283799B1008D5E13 /* OpenGLRenderer.swift */; };
+		EE8F1B64283799C8008D5E13 /* OpenGLRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F1B60283799B1008D5E13 /* OpenGLRenderer.swift */; };
+		EE8F1B6A28379A0B008D5E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B6528379A0B008D5E13 /* Main.storyboard */; };
+		EE8F1B6B28379A0B008D5E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B6728379A0B008D5E13 /* Assets.xcassets */; };
+		EE8F1B6C28379A0B008D5E13 /* APPLDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F1B6828379A0B008D5E13 /* APPLDelegate.swift */; };
+		EE8F1B7028379A41008D5E13 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B6E28379A41008D5E13 /* VertexShader.glsl */; };
+		EE8F1B7128379A41008D5E13 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B6E28379A41008D5E13 /* VertexShader.glsl */; };
+		EE8F1B7228379A41008D5E13 /* SkyboxFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B6F28379A41008D5E13 /* SkyboxFragmentShader.glsl */; };
+		EE8F1B7328379A41008D5E13 /* SkyboxFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = EE8F1B6F28379A41008D5E13 /* SkyboxFragmentShader.glsl */; };
+		EE8F1B7428379B0E008D5E13 /* OpenGLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E3AB0281A085D00DAAB85 /* OpenGLViewController.swift */; };
+		EE8F1B7528379B13008D5E13 /* LoadHDR.m in Sources */ = {isa = PBXBuildFile; fileRef = EE76C01728163A7900462D87 /* LoadHDR.m */; };
+		EE8F1B7628379B15008D5E13 /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE745E2327430905006D76FA /* AAPLMathUtilities.m */; };
+		EE8F1B7A28379C94008D5E13 /* OpenGLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E3AB0281A085D00DAAB85 /* OpenGLViewController.swift */; };
+		EE8F1B7C28379CC7008D5E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8F1B7B28379CC7008D5E13 /* AppDelegate.swift */; };
+		EE8F1B7D28379CCD008D5E13 /* LoadHDR.m in Sources */ = {isa = PBXBuildFile; fileRef = EE76C01728163A7900462D87 /* LoadHDR.m */; };
+		EE8F1B7E28379CCF008D5E13 /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE745E2327430905006D76FA /* AAPLMathUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE0DD7E8283E658D00A51D66 /* VerticalCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VerticalCross.png; sourceTree = "<group>"; };
+		EE0DD7E9283E658D00A51D66 /* HorizontalCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalCross.png; sourceTree = "<group>"; };
+		EE0DD7EE283E659800A51D66 /* HorizontalCross.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = HorizontalCross.hdr; sourceTree = "<group>"; };
+		EE0DD7EF283E659800A51D66 /* VerticalCross.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = VerticalCross.hdr; sourceTree = "<group>"; };
+		EE1DF6772816067800668B5C /* LoadHDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadHDR.h; path = Common/LoadHDR.h; sourceTree = "<group>"; };
+		EE1DF67D281613D300668B5C /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = Common/stb_image.h; sourceTree = "<group>"; };
+		EE5161672740B4C2005EF241 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EE5E3AB0281A085D00DAAB85 /* OpenGLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenGLViewController.swift; path = Common/OpenGLViewController.swift; sourceTree = "<group>"; };
+		EE745E2227430905006D76FA /* AAPLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLMathUtilities.h; path = Common/AAPLMathUtilities.h; sourceTree = "<group>"; };
+		EE745E2327430905006D76FA /* AAPLMathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLMathUtilities.m; path = Common/AAPLMathUtilities.m; sourceTree = "<group>"; };
+		EE76C01728163A7900462D87 /* LoadHDR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoadHDR.m; path = Common/LoadHDR.m; sourceTree = "<group>"; };
+		EE89B163283F26B600D01D12 /* CubemapFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CubemapFragmentShader.glsl; sourceTree = "<group>"; };
+		EE8F1B362837984F008D5E13 /* CubemapConverter-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CubemapConverter-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F1B4A28379864008D5E13 /* CubemapConverter-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CubemapConverter-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F1B5128379864008D5E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8F1B5328379865008D5E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8F1B5628379865008D5E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8F1B5828379865008D5E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8F1B60283799B1008D5E13 /* OpenGLRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLRenderer.swift; sourceTree = "<group>"; };
+		EE8F1B61283799B1008D5E13 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EE8F1B6628379A0B008D5E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8F1B6728379A0B008D5E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8F1B6828379A0B008D5E13 /* APPLDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPLDelegate.swift; sourceTree = "<group>"; };
+		EE8F1B6928379A0B008D5E13 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8F1B6E28379A41008D5E13 /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+		EE8F1B6F28379A41008D5E13 /* SkyboxFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SkyboxFragmentShader.glsl; sourceTree = "<group>"; };
+		EE8F1B7B28379CC7008D5E13 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEAC63B52818E267004BC46D /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8F1B332837984F008D5E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F1B4728379864008D5E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE01A4C6282342940084B382 /* HDR */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DD7EE283E659800A51D66 /* HorizontalCross.hdr */,
+				EE0DD7EF283E659800A51D66 /* VerticalCross.hdr */,
+			);
+			path = HDR;
+			sourceTree = "<group>";
+		};
+		EE1B0E6F273DC2A800980EDD = {
+			isa = PBXGroup;
+			children = (
+				EEAC63B52818E267004BC46D /* Readme.md */,
+				EE1B0EB3273DC9C500980EDD /* Common */,
+				EE7EFC2D28154EC3007AEBAE /* Images */,
+				EE8F1B4B28379864008D5E13 /* CubemapConverter */,
+				EE1B0E79273DC2A800980EDD /* Products */,
+				EE5161662740B4C2005EF241 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1B0E79273DC2A800980EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F1B362837984F008D5E13 /* CubemapConverter-macOS.app */,
+				EE8F1B4A28379864008D5E13 /* CubemapConverter-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1B0EB3273DC9C500980EDD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EE5E3AB0281A085D00DAAB85 /* OpenGLViewController.swift */,
+				EE1DF6772816067800668B5C /* LoadHDR.h */,
+				EE76C01728163A7900462D87 /* LoadHDR.m */,
+				EE1DF67D281613D300668B5C /* stb_image.h */,
+				EE745E2227430905006D76FA /* AAPLMathUtilities.h */,
+				EE745E2327430905006D76FA /* AAPLMathUtilities.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EE5161662740B4C2005EF241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5161672740B4C2005EF241 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE7EFC2D28154EC3007AEBAE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F1B7728379BD0008D5E13 /* PNG */,
+				EE01A4C6282342940084B382 /* HDR */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EE8F1B4B28379864008D5E13 /* CubemapConverter */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F1B5C2837989A008D5E13 /* Application */,
+			);
+			path = CubemapConverter;
+			sourceTree = "<group>";
+		};
+		EE8F1B5C2837989A008D5E13 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F1B61283799B1008D5E13 /* Bridging-Header.h */,
+				EE8F1B60283799B1008D5E13 /* OpenGLRenderer.swift */,
+				EE8F1B5F283798B8008D5E13 /* iOS */,
+				EE8F1B5E283798AC008D5E13 /* macOS */,
+				EE8F1B5D283798A4008D5E13 /* Shaders */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EE8F1B5D283798A4008D5E13 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B163283F26B600D01D12 /* CubemapFragmentShader.glsl */,
+				EE8F1B6F28379A41008D5E13 /* SkyboxFragmentShader.glsl */,
+				EE8F1B6E28379A41008D5E13 /* VertexShader.glsl */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		EE8F1B5E283798AC008D5E13 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F1B6828379A0B008D5E13 /* APPLDelegate.swift */,
+				EE8F1B6728379A0B008D5E13 /* Assets.xcassets */,
+				EE8F1B6928379A0B008D5E13 /* Info.plist */,
+				EE8F1B6528379A0B008D5E13 /* Main.storyboard */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EE8F1B5F283798B8008D5E13 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F1B7B28379CC7008D5E13 /* AppDelegate.swift */,
+				EE8F1B5028379864008D5E13 /* Main.storyboard */,
+				EE8F1B5328379865008D5E13 /* Assets.xcassets */,
+				EE8F1B5528379865008D5E13 /* LaunchScreen.storyboard */,
+				EE8F1B5828379865008D5E13 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		EE8F1B7728379BD0008D5E13 /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DD7E9283E658D00A51D66 /* HorizontalCross.png */,
+				EE0DD7E8283E658D00A51D66 /* VerticalCross.png */,
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8F1B352837984F008D5E13 /* CubemapConverter-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F1B4328379850008D5E13 /* Build configuration list for PBXNativeTarget "CubemapConverter-macOS" */;
+			buildPhases = (
+				EE8F1B322837984F008D5E13 /* Sources */,
+				EE8F1B332837984F008D5E13 /* Frameworks */,
+				EE8F1B342837984F008D5E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CubemapConverter-macOS";
+			productName = "Texture2D-macOS";
+			productReference = EE8F1B362837984F008D5E13 /* CubemapConverter-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8F1B4928379864008D5E13 /* CubemapConverter-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F1B5928379865008D5E13 /* Build configuration list for PBXNativeTarget "CubemapConverter-iOS" */;
+			buildPhases = (
+				EE8F1B4628379864008D5E13 /* Sources */,
+				EE8F1B4728379864008D5E13 /* Frameworks */,
+				EE8F1B4828379864008D5E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CubemapConverter-iOS";
+			productName = "Texture2D-iOS";
+			productReference = EE8F1B4A28379864008D5E13 /* CubemapConverter-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1B0E70273DC2A800980EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "mark lim pak mun";
+				TargetAttributes = {
+					EE8F1B352837984F008D5E13 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					EE8F1B4928379864008D5E13 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE1B0E73273DC2A800980EDD /* Build configuration list for PBXProject "CubemapConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1B0E6F273DC2A800980EDD;
+			productRefGroup = EE1B0E79273DC2A800980EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8F1B4928379864008D5E13 /* CubemapConverter-iOS */,
+				EE8F1B352837984F008D5E13 /* CubemapConverter-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8F1B342837984F008D5E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0DD7F1283E659800A51D66 /* HorizontalCross.hdr in Resources */,
+				EE0DD7ED283E658D00A51D66 /* HorizontalCross.png in Resources */,
+				EE0DD7F3283E659800A51D66 /* VerticalCross.hdr in Resources */,
+				EE0DD7EB283E658D00A51D66 /* VerticalCross.png in Resources */,
+				EE89B165283F26B600D01D12 /* CubemapFragmentShader.glsl in Resources */,
+				EE8F1B6B28379A0B008D5E13 /* Assets.xcassets in Resources */,
+				EE8F1B6A28379A0B008D5E13 /* Main.storyboard in Resources */,
+				EE8F1B7028379A41008D5E13 /* VertexShader.glsl in Resources */,
+				EE8F1B7228379A41008D5E13 /* SkyboxFragmentShader.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F1B4828379864008D5E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F1B5728379865008D5E13 /* LaunchScreen.storyboard in Resources */,
+				EE8F1B5228379864008D5E13 /* Main.storyboard in Resources */,
+				EE8F1B5428379865008D5E13 /* Assets.xcassets in Resources */,
+				EE8F1B7328379A41008D5E13 /* SkyboxFragmentShader.glsl in Resources */,
+				EE8F1B7128379A41008D5E13 /* VertexShader.glsl in Resources */,
+				EE89B164283F26B600D01D12 /* CubemapFragmentShader.glsl in Resources */,
+				EE0DD7F0283E659800A51D66 /* HorizontalCross.hdr in Resources */,
+				EE0DD7EC283E658D00A51D66 /* HorizontalCross.png in Resources */,
+				EE0DD7F2283E659800A51D66 /* VerticalCross.hdr in Resources */,
+				EE0DD7EA283E658D00A51D66 /* VerticalCross.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8F1B322837984F008D5E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F1B7428379B0E008D5E13 /* OpenGLViewController.swift in Sources */,
+				EE8F1B6C28379A0B008D5E13 /* APPLDelegate.swift in Sources */,
+				EE8F1B62283799B1008D5E13 /* OpenGLRenderer.swift in Sources */,
+				EE8F1B7628379B15008D5E13 /* AAPLMathUtilities.m in Sources */,
+				EE8F1B7528379B13008D5E13 /* LoadHDR.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F1B4628379864008D5E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F1B7C28379CC7008D5E13 /* AppDelegate.swift in Sources */,
+				EE8F1B64283799C8008D5E13 /* OpenGLRenderer.swift in Sources */,
+				EE8F1B7A28379C94008D5E13 /* OpenGLViewController.swift in Sources */,
+				EE8F1B7D28379CCD008D5E13 /* LoadHDR.m in Sources */,
+				EE8F1B7E28379CCF008D5E13 /* AAPLMathUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE8F1B5028379864008D5E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F1B5128379864008D5E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8F1B5528379865008D5E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F1B5628379865008D5E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8F1B6528379A0B008D5E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F1B6628379A0B008D5E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1B0E85273DC2A800980EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE1B0E86273DC2A800980EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EE8F1B4428379850008D5E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CubemapConverter/Application/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.CubemapConverter-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CubemapConverter/Application/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		EE8F1B4528379850008D5E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CubemapConverter/Application/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.CubemapConverter-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CubemapConverter/Application/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		EE8F1B5A28379865008D5E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CubemapConverter/Application/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.CubemapConverter-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CubemapConverter/Application/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8F1B5B28379865008D5E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CubemapConverter/Application/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.CubemapConverter-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CubemapConverter/Application/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1B0E73273DC2A800980EDD /* Build configuration list for PBXProject "CubemapConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1B0E85273DC2A800980EDD /* Debug */,
+				EE1B0E86273DC2A800980EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F1B4328379850008D5E13 /* Build configuration list for PBXNativeTarget "CubemapConverter-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F1B4428379850008D5E13 /* Debug */,
+				EE8F1B4528379850008D5E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F1B5928379865008D5E13 /* Build configuration list for PBXNativeTarget "CubemapConverter-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F1B5A28379865008D5E13 /* Debug */,
+				EE8F1B5B28379865008D5E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1B0E70273DC2A800980EDD /* Project object */;
+}
