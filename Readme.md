@@ -10,7 +10,7 @@ Testing is done only for modern OpenGL 3.2 and OpenGLES 3.0.
 <br />
 <br />
 
-**CubemapGen**
+**CubemapConverter**
 
 The demo will convert a single 2D (horizontal/vertical) cross shape cubemap texture to six 2D textures by rendering to an offscreen framebuffer object. A brief summary of the steps involved is as follows:
 
